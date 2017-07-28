@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Bootswatch Styling for Improving the Aesthetics -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+	<!-- Font Awesome CSS Icons (For cool glyphicons) -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center"><strong><i class="fa fa-newspaper-o"></i>New York Times Search</strong></h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<i class="fa fa-list-alt"></i> Search Parameters
+					</div>
+					<div class="panel-body">
+						<form id="artist-form">
+				    		<label for="search-term">Search Term:</label><br>
+				    		<input type="text" id="search-term"><br><br>
+				    		<label for="num-records">Number of Records to Retrieve:</label><br>
+				    		<input type="text" id="num-records"><br><br>
+				    		<label for="start-year">Start Year(Optional):</label><br>
+				    		<input type="text" id="start-year"><br><br>
+				    		<label for="end-year">End Year (Optional):</label><br>
+				    		<input type="text" id="end-year"><br><br>
+				    		<button id="submit-search-info">Search</button>
+				    		<button id="clear-results">Clear Results</button>
+			  			</form>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					</div>
+					<div class="panel-body">
+					</div>
+				</div>
+			  </div>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>	
+</body>
+</html>

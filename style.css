@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: auto;
+	padding: 0;
+}
+
+.jumbotron{
+	background-color: lemonchiffon;
+	color: midnightblue;
+	margin-bottom: 30px;
+}
+
+.panel-heading {
+	background-color: lemonchiffon;
+	color: midnightblue;
+}
+
+input {
+	width: 100%;
+}
