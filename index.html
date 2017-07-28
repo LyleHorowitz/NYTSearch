@@ -28,22 +28,36 @@
 					</div>
 					<div class="panel-body">
 						<form id="artist-form">
-				    		<label for="search-term">Search Term:</label><br>
-				    		<input type="text" id="search-term"><br><br>
-				    		<label for="num-records">Number of Records to Retrieve:</label><br>
-				    		<input type="text" id="num-records"><br><br>
-				    		<label for="start-year">Start Year(Optional):</label><br>
-				    		<input type="text" id="start-year"><br><br>
-				    		<label for="end-year">End Year (Optional):</label><br>
-				    		<input type="text" id="end-year"><br><br>
-				    		<button id="submit-search-info">Search</button>
-				    		<button id="clear-results">Clear Results</button>
+							<div class="form-group">
+								<label for="search-term">Search Term:</label>
+				    			<input type="text" class="form-control" id="search-term">
+							</div>
+							<div class="form-group">
+								<label for="pwd">Number of Records to Retrieve:</label>
+								<select class="form-control" id="numRecordsSelect">
+									<option value=1>1</option>
+							<!-- Setting the option for 5 as default -->
+									<option value=5 selected>5</option>
+									<option value=10>10</option>
+								</select>			  
+						    </div>
+				    		<div class="form-group">
+				    			<label for="start-year">Start Year(Optional):</label>
+				    			<input type="text" class="form-control" id="start-year">
+				    		</div>
+				    		<div class="form-group">
+				    			<label for="end-year">End Year (Optional):</label>
+				    			<input type="text" class="form-control" id="end-year">
+				    		</div>
+				    		<button class="btn" id="submit-search-info"><span class="glyphicon glyphicon-search"></span>Search</button>
+				    		<button class="btn" id="clear-results"><span class="glyphicon glyphicon-trash"></span>Clear Results</button>
 			  			</form>
 					</div>
 				</div>
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
+						<i class="fa fa-calendar" aria-hidden="true"></i> Top Articles
 					</div>
 					<div class="panel-body">
 					</div>
