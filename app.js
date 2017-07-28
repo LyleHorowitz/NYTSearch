@@ -27,7 +27,7 @@ else {
 	queryurl = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + keyword + "&" + key;
 }
 
-var numofarticles = 5;
+var numofarticles = number;
 
 $.ajax({
 	url: queryurl,
