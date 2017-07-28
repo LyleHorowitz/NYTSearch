@@ -57,5 +57,6 @@ $.ajax({
 })
 
 $("#clear-results").on("click", function() {
+	event.preventDefault();
 	$("#articles").empty();
 })
