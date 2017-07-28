@@ -33,3 +33,7 @@ input {
 button {
 	color: white;
 }
+
+.label {
+	font-size: 66%;
+}
