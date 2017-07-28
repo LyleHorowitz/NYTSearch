@@ -15,11 +15,21 @@
 	margin-bottom: 30px;
 }
 
-.panel-heading {
+.panel-default .panel-heading {
 	background-color: lemonchiffon;
 	color: midnightblue;
 }
 
 input {
 	width: 100%;
+}
+
+.panel-heading {
+	background-color: lemonchiffon;
+	color: midnightblue;
+	overflow: inherit;
+}
+
+button {
+	color: white;
 }
